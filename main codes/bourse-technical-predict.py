@@ -33,7 +33,7 @@ def process_stock(ticker):
 		gzip_fd = gzip.GzipFile(fileobj=fd)	
 		df = pd.read_csv(gzip_fd, encoding = "utf-8")
 		if(not df.empty):
-			df.drop(df.head(2).index, inplace=True)
+			#df.drop(df.head(2).index, inplace=True)
 			df["<DTYYYYMMDD>"] =  pd.to_datetime(df["<DTYYYYMMDD>"], format="%Y%m%d")
 			df.reset_index(inplace=True)
 			df.set_index("<DTYYYYMMDD>", inplace=True)
