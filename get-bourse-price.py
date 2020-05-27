@@ -1,7 +1,7 @@
 
 
 
-text_file = open("list-bource download.txt", "r")
+text_file = open("list-bourse-csv.txt", "r")
 lines = text_file.read().split()
 # print lines
 # print len(lines)
