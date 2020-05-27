@@ -4,6 +4,7 @@ Scarping and analyzing the data needed for buying and selling signals for bource
 ## how-to-use
 git clone https://github.com/PSS1998/Bourse-buySell.git<br/>
 cd Bourse-buySell<br/>
+mkdir bourse_price
 wget -E http://www.tsetmc.com/Loader.aspx?ParTree=111C1417<br/>
 gzip -d Loader.aspx\?ParTree\=111C1417.html.gz<br/>
 mv Loader.aspx\?ParTree\=111C1417.html bourse-page.html<br/>
