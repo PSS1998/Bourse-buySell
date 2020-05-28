@@ -2,6 +2,9 @@
 Scarping and analyzing the data needed for buying and selling signals for bource<br/>
 
 ## how-to-use
+you only have to run the following command:<br/>
+bash get-signal.sh<br/>
+or you can do it step by step:<br/>
 git clone https://github.com/PSS1998/Bourse-buySell.git<br/>
 cd Bourse-buySell<br/>
 mkdir bourse_price<br/>
